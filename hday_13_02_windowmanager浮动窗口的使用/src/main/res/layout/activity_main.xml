@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hday_13_02_windowmanager.MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加浮动"
+        android:onClick="click"
+        android:id="@+id/but_add"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/but_remove"
+        android:layout_alignStart="@+id/but_remove" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="移除"
+        android:onClick="click"
+        android:id="@+id/but_remove"
+        android:layout_below="@+id/but_add"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
